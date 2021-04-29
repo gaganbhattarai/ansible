@@ -1,0 +1,12 @@
+---
+
+- hosts: hosts
+
+  sudo: yes
+
+  roles:
+    - update
+    - apache
+    - git
+    - tmux
+    - vim
